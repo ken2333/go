@@ -18,22 +18,21 @@ import "fmt"
 
 */
 
-var a ="123"
-var b ="bbb"
+var a = "123"
+var b = "bbb"
 var c bool
-var d=0
-var e ="123"
+var d = 0
+var e = "123"
 
-var f ,g  ,h int =1,2,3
+var f, g, h int = 1, 2, 3
 
-var  (
-	y int=10
-	x int=20
-
+var (
+	y int = 10
+	x int = 20
 )
 
 func main() {
-fmt.Println(a,b,c,d)
-fmt.Println(f,g,h)
-fmt.Println(x+y)
+	fmt.Println(a, b, c, d)
+	fmt.Println(f, g, h)
+	fmt.Println(x + y)
 }
