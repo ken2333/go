@@ -3,12 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	var a1 = make([]int, 0, 5)
+	var a1 []int = make([]int, 0, 5)
 
 	for i := 0; i < 5; i++ {
 		a1 = append(a1, i)
 	}
 	fmt.Println(a1)
+	fmt.Println("数组长度", len(a1))
 
 	m := make(map[string]int)
 	m["a"] = 1
@@ -18,4 +19,9 @@ func main() {
 	fmt.Println(m["a"])
 	delete(m, "a")
 	fmt.Println(m["a"])
+
+	b := [10]int{1, 2, 3, 4, 5, 6}
+	fmt.Println(b[0])
+	fmt.Println(b[2])
+
 }

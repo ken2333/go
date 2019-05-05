@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"os"
-	"strconv"
 )
 
 func main() {
@@ -15,5 +14,5 @@ func main() {
 	var s = "123"
 	fmt.Println(sun)
 	fmt.Println(&s)
-	strconv.ParseInt()
+
 }
